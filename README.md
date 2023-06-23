@@ -1,4 +1,4 @@
-# Clean Coding Platform
+# Clean Coding Platform (WIP)
 
 This project demonstrates building a sufficiently 'clean' client-server based platform.
 
