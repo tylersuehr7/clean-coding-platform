@@ -19,4 +19,4 @@ I'm always eager to learn more and adapt, so if you discover deficiencies with t
 - Tyler Suehr
 
 ## Copyright
-- Copyright © Tyler R. Suehr 2023
+- Copyright © 2023 Tyler R. Suehr 
