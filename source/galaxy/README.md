@@ -21,5 +21,17 @@ Framework would also have been a great production-ready choice alternatively.
   - Share a task with another user on the system
     - Only owner of a task can share / unshare with another user
 
+# Configurable environment variables
+- `DJANGO_ENV`
+- `DJANGO_ALLOWED_HOSTS`
+- `DJANGO_CORS_ORIGIN_WHITELIST`
+- `DJANGO_CSRF_TRUSTED_ORIGINS`
+- `DB_ENGINE`
+- `DB_NAME`
+- `DB_USER`
+- `DB_PASSWORD`
+- `DB_HOST`
+- `DB_PORT`
+
 # System requirements
 - Python 3.9 (or later)
