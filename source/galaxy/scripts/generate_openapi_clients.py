@@ -73,6 +73,15 @@ def build_clients():
     )
 
 
+def move_to_exports_directory():
+    os.system(
+        f"mv {GENERATED_CLIENT_LIBS_PATH}/galaxy-api-client-ts ../../exports/ && "
+        f"mv {GENERATED_CLIENT_LIBS_PATH}/galaxy-api-client-dart ../../exports/ && "
+        f"mv {GENERATED_CLIENT_LIBS_PATH}/galaxy-api-client-swift ../../exports/"
+    )
+
+
 def run():
     generate_clients()
     build_clients()
+    move_to_exports_directory()
