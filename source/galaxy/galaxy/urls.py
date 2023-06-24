@@ -20,10 +20,12 @@ from django.urls import path, include
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, SpectacularRedocView
 
 from galaxy import settings
+from galaxy.modules.account import account_urls_v1
 from galaxy.modules.tools import tools_urls_v1
 from galaxy.modules.tools.controllers.health import urls as health_urls
 
 v1_patterns = [
+    path("", include(account_urls_v1)),
     path("", include(tools_urls_v1)),
 ]
 
