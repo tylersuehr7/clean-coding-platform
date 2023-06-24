@@ -82,6 +82,7 @@ INSTALLED_APPS = [
     "django_extensions",
     "drf_spectacular",
     "storages",
+    "galaxy.modules.account",
     "galaxy.modules.tools",
 ]
 
@@ -159,6 +160,8 @@ REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "PAGE_SIZE": 20,
 }
+
+AUTH_USER_MODEL = "account.Account"
 
 
 # Database
