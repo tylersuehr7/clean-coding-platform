@@ -82,6 +82,7 @@ INSTALLED_APPS = [
     "django_extensions",
     "drf_spectacular",
     "storages",
+    "galaxy.modules.tools",
 ]
 
 MIDDLEWARE = [
