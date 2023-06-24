@@ -35,7 +35,7 @@ CORS_ALLOW_HEADERS = (
     "accept-encoding",
     "authorization",
     "origin",
-    "user-agent",
+    "account-agent",
     "x-csrftoken",
     "x-requested-with",
     "cache-control",

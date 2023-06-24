@@ -45,20 +45,20 @@ class Account(AbstractBaseUser, PermissionsMixin):
         unique=True,
         help_text="Required. 256 characters or fewer. Letters, digits and @/./+/-/_ only.",
         error_messages={
-            "unique": "A user with that username already exists",
+            "unique": "A account with that username already exists",
         },
     )
     first_name = models.CharField(
         max_length=64,
         null=True,
         blank=True,
-        help_text="First name of the user of this account.",
+        help_text="First name of the account of this account.",
     )
     last_name = models.CharField(
         max_length=64,
         null=True,
         blank=True,
-        help_text="Last name of the user of this account.",
+        help_text="Last name of the account of this account.",
     )
     deactivated_on = models.DateTimeField(
         null=True,
