@@ -25,7 +25,6 @@ class CreateAccountController(APIView):
     @extend_schema(
         tags=["Account"],
         operation_id="create_new_account",
-        auth=[],
         parameters=[],
         request=CreateAccountRequest,
         responses={201: inline_serializer(

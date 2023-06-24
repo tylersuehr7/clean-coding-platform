@@ -90,7 +90,6 @@ class IntrospectAccessTokenController(APIView):
     @extend_schema(
         tags=["Identity"],
         operation_id="introspect_access_token",
-        auth=[],
         parameters=[],
         request=inline_serializer(name="EmptyRequest", fields={}),
         responses={200: inline_serializer(
