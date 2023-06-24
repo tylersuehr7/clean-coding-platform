@@ -83,6 +83,7 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "storages",
     "galaxy.modules.account",
+    "galaxy.modules.task",
     "galaxy.modules.tools",
 ]
 
