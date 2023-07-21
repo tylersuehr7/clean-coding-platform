@@ -4,4 +4,4 @@ This directory contains all source code of the platform. Assumes this platform i
 
 ## Projects
 - `galaxy` is the RESTful API backend
-- 
+- `orion` is a Flutter client-side mobile application
