@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+  dio: # use latest version
   http: ^0.13.0
   equatable: ^2.0.0
   flutter_bloc: ^8.0.0
