@@ -1,6 +1,6 @@
-# orion
+# Clean Coding Platform – "orion"
 
-An example client-side Flutter application.
+A Flutter application demonstrating authentication state-management.
 
 ## Getting Started
 
